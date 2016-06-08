@@ -10,14 +10,14 @@
             <a class="side_link" href="tel:(702) 564-8595">(702) 564-8595</a>
             <p class="colored_link" style="">Address</p>
             <p class="side_link">
-                1500 E Village Way, Orange, CA 92865
+                2275 Village Walk Drive Henderson, Nevada 89052
             </p>
             <a class="main_btn block animated_btn" href="https://maps.google.com/maps?ll=36.022438,-115.08492&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&daddr=2225%20Village%20Walk%20Dr%20%23171%20Henderson%2C%20NV%2089052%20USA@36.022438,-115.0849203" target="_blank" >Driving Direction</a>
         </div>
         <div class="details_col_9" id="event_details_container">
             <div class="map_container">
                 <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13257.876424711372!2d-117.8377047!3d33.826011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe51d430a0387818c!2sThe+Village+at+Orange!5e0!3m2!1sen!2sca!4v1465422012461" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.954305995165!2d-115.08850434909199!3d36.021409218749774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d1dd0b272e27%3A0xc73ebf3090b10ecf!2sThe+District+at+Green+Valley+Ranch!5e0!3m2!1sen!2sca!4v1463754102646" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div id="mm_page_content" class="details_desc"></div>
         </div>
