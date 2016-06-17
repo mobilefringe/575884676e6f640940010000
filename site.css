@@ -18,23 +18,34 @@ $animation_color: #f7d581;
 }
 
 .stores_banner{
-    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/dgvr_1920x150_banner_directory.jpg);
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_directory.jpg);
 }
 
 .events_banner{
-    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/dgvr_1920x150_banner_events.jpg);
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_events.jpg);
 }
 
 .dine_banner{
-    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/dgvr_1920x150_banner_dine.jpg);
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_dine.jpg);
 }
 
 .jobs_banner{
-    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/dgvr_1920x150_banner_dine.jpg);
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_jobs.jpg);
 }
 
 .location_banner{
-    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/dgvr_1920x150_banner_dine.jpg);
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_location.jpg);
+}
+
+.villageorange-services{
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_services.jpg);
+}
+
+.villageorange-contact-us{
+    background-image: url(http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_1920x150_banner_contact.jpg);
+}
+.villageorange-privacy-policy{
+    background-image: url(http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_1920x150_banner_privacy.jpg);
 }
 
 
