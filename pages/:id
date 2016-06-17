@@ -27,13 +27,13 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         if (slug == "villageorange-privacy-policy"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_privacy.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_440x1200_side_privacy.jpg")
         }
        if (slug == "villageorange-services"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_services.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_440x1200_side_services.jpg")
         }
         if (slug == "villageorange-contact-us"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_contact.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/575884676e6f640940010000/image/jpeg/undefined/tvo_440x1200_side_contact.jpg")
         }
         
         
