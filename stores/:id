@@ -11,9 +11,9 @@
                     <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="details_image" />
                     <p class="colored_link" style="{{phone_show}}">Phone</p>
                     <a class="side_link" style="{{phone_show}}" href="tel:{{phone}}">{{phone}}</a>
-                     <p class="colored_link" style="{{address_show}}">Address</p>
+                    <p class="colored_link" style="">Address</p>
                     <p class="side_link">
-                       {{unit}}
+                        {{unit}}
                     </p>
                     <a class="main_btn animated_btn" href="{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
@@ -94,7 +94,7 @@
 </script>
 <!-- End Jobs Template-->
 
-<script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>s
+<script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
@@ -102,12 +102,17 @@
         if($(window).width() <= 768){
             $('.details_header').click()
         }
+        console.log(isIE())
+        if (isIE()){
+            show_png_pin_without_link($('#store_name').attr('data-value'), $('#store_name').text(), "#png_map")
+        }    
         
     })
-    
-    $(window).load(function(e){
-        show_png_pin_without_link($('#store_name').attr('data-value'), $('#store_name').text(), "#png_map")
-    })
+    if (isIE() == false){
+        $(window).load(function(e){
+            show_png_pin_without_link($('#store_name').attr('data-value'), $('#store_name').text(), "#png_map")
+        })
+    }
     
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
